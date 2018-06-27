@@ -16,7 +16,7 @@ Como en toda actividad nadie nace conociendo todo lo necesario del tema y es un 
 * Indira Sarahi Ruiz Lopez
 * Miriam Perez
 * Orquidia Campos
-* Sandy
+* Sandra Pantoja
 
 #### Definición, delimitación y planeación.
 
