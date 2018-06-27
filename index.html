@@ -8,8 +8,9 @@
      <title>Lol4NewBees</title>
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="#">Lol4NewBees</a>
+          <img src="assets/LOL_Logo.png" alt="">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -65,6 +66,20 @@
           </footer>
           
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+     <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+     <script>
+       // Initialize Firebase
+       var config = {
+         apiKey: "AIzaSyDMO_Lp1WJu123MjGNjwuNcuulXCj40eqw",
+         authDomain: "lol-4new-bees.firebaseapp.com",
+         databaseURL: "https://lol-4new-bees.firebaseio.com",
+         projectId: "lol-4new-bees",
+         storageBucket: "lol-4new-bees.appspot.com",
+         messagingSenderId: "898255528761"
+       };
+       firebase.initializeApp(config);
+     </script>
      <script type="text/javascript" src="js/bootstrap.min.js"></script>
      <script type="text/javascript" src="js/app.js"></script>
    </body>
