@@ -1,5 +1,5 @@
 ![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg)
- # Hackathot Laboratoria 2018
+ # Hackathon Laboratoria 2018
 
 
 _Con la temática  de entretenimiento crearemos soluciones/productos utilizando un API_
