@@ -1,20 +1,28 @@
-
 *{
   margin: 0;
   padding: 0;
 } 
 body{
+  box-sizing: border-box;
   background-image: url("../assets/back.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.title{
+.welcome{
+  font-size: .8rem;
+  color: goldenrod;
   text-align: center;
-  width: 90vh;
+  width: 50vw;
 }
 header{
   text-align: center;
 }
+.imgborde{
+  border: silver 75px solid;
+  border-image-source: url("../assets/border.png");
+  border-image-slice: 75;
+  text-align: center;
+ }
 
 footer{
   position: fixed;
