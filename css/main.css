@@ -2,18 +2,19 @@
   margin: 0;
   padding: 0;
 }
+html{
+  background-image: url("../assets/back.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+}
 body{
   box-sizing: border-box;
   background-image: url("../assets/back.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.welcome{
-  font-size: .8rem;
-  color: goldenrod;
-  text-align: center;
-  width: 50vw;
-}
+
 .header{
   text-align: center;
   width: 50vh;

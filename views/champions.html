@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/champions.css">
   <title>Lol4NewBees</title>
 </head>
 
@@ -65,15 +66,19 @@
 
       <div class="content">
         <div class="search">
-          <input type="text" id="busqueda" placeholder="Buscar ...">
+          <form>
+            <input id="search-text" type="text"  >
+            <button id="search-button" type="button">Buscar</button>
+        </form>
           <i class="fa fa-search"></i>
         </div>
-        <ul>
-          <li>
-            <div class="template"></div>
-            <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-            <span>{{title}}</span>
-            <h3>{{name}}</h3>
+        <div id="champion">
+          <div id="template" class="d-none"
+            <div class="col-4 ">
+              <a href=""><img src="http://ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
+              <span class="letters">{{title}}</span>
+              <h3 class="letters">{{name}}</h3>
+            </div>
           </div>
           <li>
             <div class="template"></div>
@@ -144,7 +149,7 @@
 
 <footer>
   <div class="panel panel-default">
-    <div class="panel-body">A Basic Panel</div>
+    <div class="panel-body">&copy</div>
   </div>
 </footer>
 

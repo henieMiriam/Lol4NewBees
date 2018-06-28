@@ -6683,21 +6683,21 @@ var champions = {
   }
 }
 
-console.log(champions);
+//console.log(champions);
 
 
 
 
 
 
-function getchamp (champions){
+function getchamp (data){
   var champsElement = document.getElementById('champion');
   var template = document.getElementById('template').innerHTML;
-  console.log(champions.data);
-  for (const key in champions.data) {
+  console.log(data);
+  for (const key in data) {
     var filled ="";
    console.log(key);
-   var value = champions.data[key];
+   var value = data[key];
    console.log(value);
    
    filled += template.replace("{{title}}", value.title).replace( "{{name}}" ,value.name ).replace("{{full}}", value.image.full);
@@ -6705,7 +6705,34 @@ function getchamp (champions){
   }
 
 }
-getchamp(champions)
+
+
+$("#search-button").click(function(){
+  var search = $("#search-text").val();
+  console.log(search);
+  
+var filtered ={};
+
+for (const key in champions.data) {
+  if (champions.data.hasOwnProperty(key)) {
+    const champion = champions.data[key];
+    console.log('jhgrfjhgfjhgf', champion);
+    if(champion.name==search){
+       filtered[key]=champion;
+    }
+  }
+}
+getchamp(filtered)
+});
+
+
+
+// var filtered = champions.filter(function(champion){
+  
+//   return true
+// });
+
+
 // //plantilla
 
 // function fillTemplate(template, champions) {

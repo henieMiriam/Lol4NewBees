@@ -8,15 +8,9 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.welcome{
-  font-size: .8rem;
-  color: goldenrod;
-  text-align: center;
-  width: 50vw;
-}
+
 .header{
   text-align: center;
-  width: 50vh;
 }
 .tipi{
   background-color: #5b9a91ff;
