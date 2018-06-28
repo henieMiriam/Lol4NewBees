@@ -38,9 +38,12 @@ footer{
   display: none;
 }
 .first-page{
-  background-image: url("../assets/back.png");
+  background-image: url("../assets/images/8r6wZra.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
+  display: block;
 }
 
 #image-splash-back{

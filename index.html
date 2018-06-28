@@ -9,17 +9,23 @@
     <title>Lol-4New-Bees</title>
   </head>
   <body>
-    <main class="container first-page">
+    <header>
+      <div class="sticky-top">
+        <img src="assets/icon.png" alt="">
+      </div>
+    </header>
+    <main class="container first-page col s4">
       <div id="image-splash-back" Sclass="">
 
       </div>
+      <div class="container-wrape">
         <div>
-                <form id="sing-up"  class="hide" action="">
-                    <label for="invocador">Invocador</label>
+          <form id="sing-up"  class="w-50 p-3" action="">
+                    <label for="invocador"></label>
                     <input id="new-user-name" name="username" type="text" placeholder="Correo">
-                    <label for="password">Password</label>
+                    <label for="password"></label>
                     <input type="password" id="password-up" name="password" placeholder="Contraseña">
-                    <button id="signup" class="btn-outline-succed" type="button">Sign-up</button>
+                    <button id="signup" class="btn btn-outline-dark" type="button">Sign-up</button>
                     <div id="error"></div>
                     <div id="loader">
                     </div>
@@ -27,19 +33,22 @@
         </div>
         <div class="row log-in">
               <form action="">
-                  <label for="invocador">Invocador</label>
+                  <label for="invocador">
+                  </label>
                   <input id="username" name="username" type="text" placeholder="Correo">
-                  <label for="password">Password</label>
+                  <label for="password"></label>
                   <input type="password" id="password" name="password" placeholder="Contraseña">
-                  <button id="login" type="button">Login</button>
+                  <button id="login" class="btn btn-outline-dark" type="button">Login</button>
                   <div id="error"></div>
                   <div id="loader">
                   </div>
               </form>
           </div>
-          <div  class="new-account form-group form-check">
-            <button id="new-here" type="button"> New?? sign up</button>
+          <div  class="new-account form-check s12">
+            <button id="new-here" class="btn btn-outline-dark" type="button"> New?? sign up</button>
           </div>
+
+      </div>
 
     </main>
 

@@ -77,14 +77,15 @@ $(document).ready(function () {
       $(function(){
         $("#image-splash-back").hide('');
         $(".splash").hide();
-        $(".splash").fadeIn(2000)
+        $(".splash").fadeIn(6000)
 
         });
       //this function take the time the image is showing and fade it out , then makes appear the intro
        $(function(){
            setTimeout(function() {
-             $(".splash").fadeOut(2000, function() {
+             $(".splash").fadeOut(5000, function() {
              $("#copy").show();
+             $().button('toggle')
           });
          }, 3000);
         });
