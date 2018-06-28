@@ -24,14 +24,7 @@ body{
   background-color: black;
   color: #937341;
 }
-.most{
-  background-image: url("../assets/background\ buttons.JPG");
-  color: white;
-  height: 10vh;
-  padding: 3vh;
-  margin-top: 1vh;
-  text-align: center;
- }
+
 
 footer{
   position: fixed;
