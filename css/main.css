@@ -8,6 +8,13 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.title{
+  text-align: center;
+  width: 90vh;
+}
+header{
+  text-align: center;
+}
 
 footer{
   position: fixed;
