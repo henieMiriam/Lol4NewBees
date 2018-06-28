@@ -8,12 +8,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.welcome{
-  font-size: .8rem;
-  color: goldenrod;
-  text-align: center;
-  width: 50vw;
-}
+
 .header{
   text-align: center;
   width: 50vh;
