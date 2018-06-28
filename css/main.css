@@ -4,7 +4,9 @@
 }
 html{
   background-image: url("../assets/back.png");
- background-size: auto;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
 }
 body{
   box-sizing: border-box;
