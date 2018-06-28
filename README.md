@@ -34,4 +34,4 @@ Despues de analizar la problematica y mediante una lluvia de ideas nuestro team 
 
 *Historia de usuarios*
 
-![historia de usuario]()
+![historia de usuario](assets/images/historia de usuario.png)
