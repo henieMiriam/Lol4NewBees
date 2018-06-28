@@ -58,7 +58,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     firebase.auth().onAuthStateChanged(firebaseUser =>{
         if(firebaseUser){
             console.log("logeado");
-            //location.href="views/main.html"
+            location.href="views/main.html"
         }else{
             console.log("not loged in");
         }
