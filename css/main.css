@@ -16,17 +16,27 @@ body{
   text-align: center;
   width: 50vh;
 }
-.containerimgborde{
+.card{
   border: silver 75px solid;
   border-image-source: url("../assets/border.png");
   border-image-slice: 75;
   text-align: justify;
+  background-color: black;
+  color: #937341;
 }
+.most{
+  background-image: url("../assets/background\ buttons.JPG");
+  color: white;
+  height: 10vh;
+  padding: 3vh;
+  margin-top: 1vh;
+  text-align: center;
+ }
 
 footer{
   position: fixed;
   bottom: 0;
-  background-color: black;
+  background-color: #5b9a91;
   width: 100%;
   text-align: center;
 }
