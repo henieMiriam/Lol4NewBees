@@ -1,5 +1,5 @@
 //funcion del template
-var $template = $(data).find('.template')[9].html();
+// var $template = $(data).find('.template')[9].html();
 console.log(champions);
 
 
