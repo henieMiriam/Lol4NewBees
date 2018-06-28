@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+html{
+  background-image: url("../assets/back.png");
+ background-size: auto;
+}
 body{
   box-sizing: border-box;
   background-image: url("../assets/back.png");
