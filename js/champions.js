@@ -6705,7 +6705,12 @@ function getchamp (champions){
   }
 
 }
-getchamp(champions)
+
+var filtered = champions.filter(function(champion){
+  return true;
+});
+
+getchamp(filtered);
 // //plantilla
 
 // function fillTemplate(template, champions) {
