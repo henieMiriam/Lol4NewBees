@@ -58,7 +58,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     firebase.auth().onAuthStateChanged(firebaseUser =>{
         if(firebaseUser){
             console.log("logeado");
-            //location.href="views/main.html"
+            location.href="views/main.html"
         }else{
             console.log("not loged in");
         }
@@ -77,13 +77,13 @@ $(document).ready(function () {
       $(function(){
         $("#image-splash-back").hide('');
         $(".splash").hide();
-        $(".splash").fadeIn(6000)
+        $(".splash").fadeIn(3000)
 
         });
       //this function take the time the image is showing and fade it out , then makes appear the intro
        $(function(){
            setTimeout(function() {
-             $(".splash").fadeOut(5000, function() {
+             $(".splash").fadeOut(6000, function() {
              $("#copy").show();
              $().button('toggle')
           });

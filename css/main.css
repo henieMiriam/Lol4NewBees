@@ -53,3 +53,12 @@ footer{
   width: 100%;
   height: 100vh;
 }
+
+.logo-footer{
+  width: 100%;
+  height: 20vh;
+}
+.logo-footer >img{
+  width: 30%;
+  height: 10vh;
+}
