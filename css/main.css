@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-} 
+}
 body{
   background-image: url("../assets/back.png");
   background-size: cover;
@@ -22,4 +22,10 @@ footer{
   background-color: black;
   width: 100%;
   text-align: center;
+}
+
+.splash-back{
+  background-image: url(assets/back.png);
+  width: 50%;
+  height: 100vh;
 }

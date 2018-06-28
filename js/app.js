@@ -41,7 +41,7 @@ firebase.auth().onAuthStateChanged(function(user) {
       var invocadorValue=invocador.value;
       var passwordValue=password.value;
       var auth=firebase.auth();
-      var promise=auth.signInWithEmailAndPassword(invocador,invocadorPassword);
+      var promise=auth.signInWithEmailAndPassword(invocadorValue,passwordValue);
       promise.catch( e => alert(e.message));
   });
   // Evento para sing up
@@ -66,11 +66,11 @@ firebase.auth().onAuthStateChanged(function(user) {
 
       //INICIALIZAR JQUERY CUANDO EL DOM SE ENCUENTRE CARGADO
 
-$(document).ready(function () {
+/*$(document).ready(function () {
 
       //this function hide the splash and reapper again the image in a soft fade in
       $(function(){
-        $("#copy").hide();
+        $("#splash-back").hide('');
         $(".splash").hide();
         $(".splash").fadeIn(2000)
 
@@ -84,4 +84,4 @@ $(document).ready(function () {
          }, 3000);
         });
 
-});
+});*/
