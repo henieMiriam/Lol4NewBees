@@ -18,6 +18,18 @@ body{
   text-align: center;
   width: 50vh;
 }
+.tipi{
+  background-color: #5b9a91ff;
+  text-align: center;
+  height: 20vh;
+  margin-bottom: 0;
+  padding: 1vh;
+  font-size: 3.3vh;
+  color: #16171b;
+}
+.lulu{
+  z-index: 2;
+}
 .card{
   border: silver 75px solid;
   border-image-source: url("../assets/border.png");
@@ -29,7 +41,7 @@ body{
 .most{
   background-image: url(../assets/background\ buttons.JPG);
   text-align: center;
-  height: 15vh;
+  height: 10vh;
   padding: 3vh;
   text-shadow: 2px 2px #16171b;
 }
