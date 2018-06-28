@@ -1,5 +1,5 @@
 ![logo](https://cdn-images-1.medium.com/max/945/1*3ebT5azEfTrKxANOE3BwyA.jpeg)
- # Hackathot Laboratoria 2018
+ # Hackathon Laboratoria 2018
 
 
 _Con la temática  de entretenimiento crearemos soluciones/productos utilizando un API_
@@ -16,12 +16,22 @@ Como en toda actividad nadie nace conociendo todo lo necesario del tema y es un 
 * Indira Sarahi Ruiz Lopez
 * Miriam Perez
 * Orquidia Campos
-* Sandy
+* Sandra Pantoja
 
 #### Definición, delimitación y planeación.
 
+Despues de analizar la problematica y mediante una lluvia de ideas nuestro team a decidido crear una app en la cual los gamers que apenas se integran a la comunidad puedan encontrar herramientas e informacion necesaria para avanzar y adentrarse de una manera mas eficiente al mundo de Lol.
+
+### *Objetivo*
 
 
+# *Lol 4New Bees ayudara a los nuevos usuarios de Lol a encontrar tips que les permitan conocer el mundo League of leyends y tener mas exito en sus jugadas.
+
+* Proporcionara informacion de vocavulario
+* Incluira tips acerca de los combos y mejores jugadas
+* Dara a los usuarios informacion sobre los campeones asi como sus puntos a destacar
 
 
-# *Lol 4New Bees*
+*Historia de usuarios*
+
+![historia de usuario]()

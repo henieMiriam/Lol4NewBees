@@ -1,3 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
-  background-color: silver;
+  box-sizing: border-box;
+  background-image: url("../assets/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.welcome{
+  font-size: .8rem;
+  color: goldenrod;
+  text-align: center;
+  width: 50vw;
+}
+.header{
+  text-align: center;
+  width: 50vh;
+}
+.card{
+  border: silver 75px solid;
+  border-image-source: url("../assets/border.png");
+  border-image-slice: 75;
+  text-align: justify;
+  background-color: black;
+  color: #937341;
+}
+.most{
+  background-image: url(../assets/background\ buttons.JPG);
+  text-align: center;
+  height: 15vh;
+  padding: 3vh;
+  text-shadow: 2px 2px #16171b;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: #5b9a91;
+  width: 100%;
+  text-align: center;
+}
+#sing-up{
+  display: none;
+}
+.first-page{
+  background-image: url("../assets/images/8r6wZra.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+#image-splash-back{
+  background-image: url(../assets/Ahri_Splash_Tile_0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo-footer{
+  width: 100%;
+  height: 20vh;
+}
+.logo-footer >img{
+  width: 30%;
+  height: 10vh;
 }
