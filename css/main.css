@@ -1,16 +1,18 @@
-
 *{
   margin: 0;
   padding: 0;
 } 
 body{
+  box-sizing: border-box;
   background-image: url("../assets/back.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.title{
+.welcome{
+  font-size: .8rem;
+  color: goldenrod;
   text-align: center;
-  width: 90vh;
+  width: 50vw;
 }
 .header{
   text-align: center;
@@ -24,14 +26,6 @@ body{
   background-color: black;
   color: #937341;
 }
-.most{
-  background-image: url("../assets/background\ buttons.JPG");
-  color: white;
-  height: 10vh;
-  padding: 3vh;
-  margin-top: 1vh;
-  text-align: center;
- }
 
 footer{
   position: fixed;
