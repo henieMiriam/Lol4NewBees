@@ -1,10 +1,18 @@
-body{
-  background-color: silver;
-}
+
 *{
   margin: 0;
   padding: 0;
 } 
-a .navbar-brand{
-  color: #937341;
+body{
+  background-image: url("../assets/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
 }
