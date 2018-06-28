@@ -1,3 +1,4 @@
+
 //log in
 var provider = new firebase.auth.GoogleAuthProvider();
 
