@@ -34,4 +34,13 @@ Despues de analizar la problematica y mediante una lluvia de ideas nuestro team 
 
 *Historia de usuarios*
 
-![historia de usuario]()
+![historia de usuario](assets/images/historia de usuario.png)
+
+ ### *Mock-up Ux*
+
+![Mock-up](Prototype/1.png)
+![Mock-up](Prototype/2.png)
+![Mock-up](Prototype/3.png)
+![Mock-up](Prototype/4.png)
+![Mock-up](Prototype/5.png)
+![Mock-up](Prototype/6.png)

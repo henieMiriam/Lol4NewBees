@@ -83,11 +83,19 @@ $(document).ready(function () {
       //this function take the time the image is showing and fade it out , then makes appear the intro
        $(function(){
            setTimeout(function() {
-             $(".splash").fadeOut(6000, function() {
+             $(".splash").fadeOut(4000, function() {
              $("#copy").show();
              $().button('toggle')
           });
          }, 3000);
         });
+
+        $(function(){
+          $("#sing-up").hide();
+          $("#new-here").click(function(){
+            $("#sing-up").show();
+            $("#loging").hide();
+          })
+        })
 
 });
