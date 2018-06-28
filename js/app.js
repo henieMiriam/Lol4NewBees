@@ -85,3 +85,8 @@ firebase.auth().onAuthStateChanged(function(user) {
         });
 
 });*/
+
+$('#new-here').click(function(){
+  $('#signup').show();
+
+});

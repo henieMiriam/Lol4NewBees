@@ -23,9 +23,9 @@ footer{
   width: 100%;
   text-align: center;
 }
-
-.splash-back{
-  background-image: url(assets/back.png);
-  width: 50%;
-  height: 100vh;
+.sing-up{
+  display: none;
+}
+.first-page{
+  background-image: url("../assets/back.png");
 }
