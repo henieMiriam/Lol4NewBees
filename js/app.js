@@ -1,6 +1,7 @@
 /*  document.getElementById('login').addEventListener('click', function () {
     var provider = new firebase.auth.GoogleAuthProvider();
 
+
    firebase.auth().signInWithPopup(provider)
     .then(function (result) {})
     .catch(function (error) {
