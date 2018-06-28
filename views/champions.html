@@ -57,7 +57,7 @@
   <header class="flow container ">
     <div class="header col-6 offset-3 "><img class="img-fluid" src="../assets/Lollogo.png"  alt="">
     </div>
-    
+  
   </header>
   
   <main>
@@ -65,18 +65,22 @@
       
       <div class="content">
         <div class="search">
-          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+          <form>
+            <input id="search-text" type="text">
+            <button id="search-button" type="button">Buscar</button>
+        </form>
           <i class="fa fa-search"></i>
         </div>
-        <ul>
-          <li> 
-            <div class="template"></div>
-            <!-- <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a> -->
-            <span>{{title}}</span>
-            <h3>{{name}}</h3>
+        <div id="champion"> 
+          <div id="template" class="d-none"
+            <div class="col-4 ">
+              <a href=""><img src="http://ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
+              <span>{{title}}</span>
+              <h3>{{name}}</h3>
+            </div>
           </div>
-        </li>        
-      </ul>
+        </div>
+      
 
 
 </main>
@@ -88,21 +92,7 @@
 </footer>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDMO_Lp1WJu123MjGNjwuNcuulXCj40eqw",
-    authDomain: "lol-4new-bees.firebaseapp.com",
-    databaseURL: "https://lol-4new-bees.firebaseio.com",
-    projectId: "lol-4new-bees",
-    storageBucket: "lol-4new-bees.appspot.com",
-    messagingSenderId: "898255528761"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="../js/jquery-3.3.1.min.js"></script>
 <!-- <script src="../js/champions_data.js"></script> -->
 <script src="../js/champions.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
