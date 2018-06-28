@@ -8,11 +8,14 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.container{
+  padding: 2vh;
+  position: relative;
+}
 .card{
   border: silver 75px solid;
   border-image-source: url("../assets/border.png");
-  border-image-slice: 75;
+  border-image-slice: 50;
   text-align: justify;
   background:radial-gradient(black, #5b9a91);
   color: #937341;
