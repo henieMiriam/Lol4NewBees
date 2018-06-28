@@ -36,6 +36,7 @@ firebase.auth().onAuthStateChanged(function(user) {
   var btnSignUp=document.getElementById("signup");
   var newInvocador=document.getElementById("new-user-name");
   var newPassword=document.getElementById("password-up");
+  var signup=document.getElementById('sing-up');
   // evento para login
   btnLogin.addEventListener("click", e => {
       var invocadorValue=invocador.value;
@@ -87,6 +88,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 });*/
 
 $('#new-here').click(function(){
-  $('#signup').show();
+  $('signup').stile.;
 
 });
