@@ -25,8 +25,13 @@ Despues de analizar la problematica y mediante una lluvia de ideas nuestro team 
 ### *Objetivo*
 
 
-# *Lol 4New Bees ayudara a los nuevos usuarios de Lol a encontrar tips que les permitan conocer el mundo Lol y tener mas exito en sus jugadas.
+# *Lol 4New Bees ayudara a los nuevos usuarios de Lol a encontrar tips que les permitan conocer el mundo League of leyends y tener mas exito en sus jugadas.
 
 * Proporcionara informacion de vocavulario
 * Incluira tips acerca de los combos y mejores jugadas
 * Dara a los usuarios informacion sobre los campeones asi como sus puntos a destacar
+
+
+*Historia de usuarios*
+
+![historia de usuario]()
