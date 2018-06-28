@@ -36,12 +36,13 @@ firebase.auth().onAuthStateChanged(function(user) {
   var btnSignUp=document.getElementById("signup");
   var newInvocador=document.getElementById("new-user-name");
   var newPassword=document.getElementById("password-up");
+  var signup=document.getElementById('sing-up');
   // evento para login
   btnLogin.addEventListener("click", e => {
       var invocadorValue=invocador.value;
       var passwordValue=password.value;
       var auth=firebase.auth();
-      var promise=auth.signInWithEmailAndPassword(invocador,invocadorPassword);
+      var promise=auth.signInWithEmailAndPassword(invocadorValue,passwordValue);
       promise.catch( e => alert(e.message));
   });
   // Evento para sing up
@@ -57,7 +58,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     firebase.auth().onAuthStateChanged(firebaseUser =>{
         if(firebaseUser){
             console.log("logeado");
-            //location.href="main.html"
+            location.href="views/main.html"
         }else{
             console.log("not loged in");
         }
@@ -68,18 +69,23 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 $(document).ready(function () {
 
+    $("#new-here").click(function(){
+      $("sign-up").show();
+    });
+
       //this function hide the splash and reapper again the image in a soft fade in
       $(function(){
-        $("#copy").hide();
+        $("#image-splash-back").hide('');
         $(".splash").hide();
-        $(".splash").fadeIn(2000)
+        $(".splash").fadeIn(3000)
 
         });
       //this function take the time the image is showing and fade it out , then makes appear the intro
        $(function(){
            setTimeout(function() {
-             $(".splash").fadeOut(2000, function() {
+             $(".splash").fadeOut(6000, function() {
              $("#copy").show();
+             $().button('toggle')
           });
          }, 3000);
         });

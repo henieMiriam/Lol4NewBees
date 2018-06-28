@@ -20,8 +20,13 @@ Como en toda actividad nadie nace conociendo todo lo necesario del tema y es un 
 
 #### Definición, delimitación y planeación.
 
+Despues de analizar la problematica y mediante una lluvia de ideas nuestro team a decidido crear una app en la cual los gamers que apenas se integran a la comunidad puedan encontrar herramientas e informacion necesaria para avanzar y adentrarse de una manera mas eficiente al mundo de Lol.
+
+### *Objetivo*
 
 
+# *Lol 4New Bees ayudara a los nuevos usuarios de Lol a encontrar tips que les permitan conocer el mundo Lol y tener mas exito en sus jugadas.
 
-
-# *Lol 4New Bees*
+* Proporcionara informacion de vocavulario
+* Incluira tips acerca de los combos y mejores jugadas
+* Dara a los usuarios informacion sobre los campeones asi como sus puntos a destacar

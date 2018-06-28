@@ -1,48 +1,67 @@
- 
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Lol-4New-Bees</title>
   </head>
   <body>
-    <main class="container">
-      <div class="row sing-up">
+
+    <main class="container first-page col-sm-12 align-self-center">
+      <div id="image-splash-back" Sclass="">
+
+      </div>
+      <header>
+        <div class="sticky-top">
+          <img src="assets/icon.png" alt="">
+        </div>
+      </header>
+      <div class="container-wrape ">
+        <div>
+          <form id="sing-up"  class="w-50 p-3" action="">
+                    <label for="invocador"></label>
+                    <input id="new-user-name" name="username" type="text" placeholder="Correo">
+                    <label for="password"></label>
+                    <input type="password" id="password-up" name="password" placeholder="Contraseña">
+                    <button id="signup" class="btn btn-outline-dark" type="button">Sign-up</button>
+                    <div id="error"></div>
+                    <div id="loader">
+                    </div>
+                </form>
+        </div>
+        <div class="row log-in">
               <form action="">
-                  <label for="invocador">Invocador</label>
-                  <input id="new-user-name" name="username" type="text" placeholder="Correo">
-                  <label for="password">Password</label>
-                  <input type="password" id="password-up" name="password" placeholder="Contraseña">
-                  <button id="signup" class="btn-outline-succed" type="button">Sing-up</button>
+                  <label for="invocador">
+                  </label>
+                  <input id="username" name="username" type="text" placeholder="Correo">
+                  <label for="password"></label>
+                  <input type="password" id="password" name="password" placeholder="Contraseña">
+                  <button id="login" class="btn btn-outline-dark" type="button">Login</button>
                   <div id="error"></div>
                   <div id="loader">
                   </div>
               </form>
+          </div>
+          <div  class="new-account form-check s12">
+            <button id="new-here" class="btn btn-outline-dark" type="button"> New?? sign up</button>
+          </div>
 
-      <div class="row log-in">
-            <form action="">
-                <label for="invocador">Invocador</label>
-                <input id="username" name="username" type="text" placeholder="Correo">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" placeholder="Contraseña">
-                <button id="login" type="button">Login</button>
-                <div id="error"></div>
-                <div id="loader">
-
-
-               </div>
-            </form>
-        </div>
-
-        <div class="">
-          <div id="getData"></div>
-
-        </div>
+      </div>
 
     </main>
+    <footer>
+      <div class="logo-footer">
+        <img  class="align-self-center " src="assets/Lollogo.png" alt="">
+        <h5 class="mt-0">Lol-4New-Bees</h5>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+
+      </div>
+    </footer>
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -60,8 +79,8 @@
        firebase.initializeApp(config);
      </script>
      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+     <!--<script src="anime.min.js"></script>-->
      <script src="js/app.js"></script>
      <script src="js/api.js"></script>
    </body>
  </html>
-
