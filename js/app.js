@@ -58,7 +58,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     firebase.auth().onAuthStateChanged(firebaseUser =>{
         if(firebaseUser){
             console.log("logeado");
-            //location.href="main.html"
+            //location.href="views/main.html"
         }else{
             console.log("not loged in");
         }
@@ -67,11 +67,15 @@ firebase.auth().onAuthStateChanged(function(user) {
 
       //INICIALIZAR JQUERY CUANDO EL DOM SE ENCUENTRE CARGADO
 
-/*$(document).ready(function () {
+$(document).ready(function () {
+
+    $("#new-here").click(function(){
+      $("sign-up").show();
+    });
 
       //this function hide the splash and reapper again the image in a soft fade in
       $(function(){
-        $("#splash-back").hide('');
+        $("#image-splash-back").hide('');
         $(".splash").hide();
         $(".splash").fadeIn(2000)
 
@@ -84,10 +88,5 @@ firebase.auth().onAuthStateChanged(function(user) {
           });
          }, 3000);
         });
-
-});*/
-
-$('#new-here').click(function(){
-  $('signup').stile.;
 
 });
