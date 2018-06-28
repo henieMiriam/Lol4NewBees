@@ -52,7 +52,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     var promise=auth.createUserWithEmailAndPassword(invocadorValue,passwordValue);
     promise.catch( e => alert(e.message));
   });
-
+ // redireccionando despues de log in
     firebase.auth().onAuthStateChanged(firebaseUser =>{
         if(firebaseUser){
             console.log("logeado");
