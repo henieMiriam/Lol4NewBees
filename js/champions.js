@@ -1,69 +1,45 @@
 //funcion del template
 // var $template = $(data).find('.template')[9].html();
-console.log(champions);
+var bring elementys 
 
 
-// function fillTemplate(template, data) {
-//   for(var index in champions_data.data){
-//     var value = data[index];
-//     template = template.replace(new RegExp('{{'+index+'}}', 'g'), escapeHtml(value) );
-//   };
-//   return template;
-// }
 
-// function escapeHtml(str) {
-//   var div = document.createElement('div');
-//   div.appendChild(document.createTextNode(str));
-//   return div.innerHTML;
-// }
+function fillTemplate(template, data) {
+  for(var index in champions.data){
+    var value = data[index];
+    template = template.replace(new RegExp('{{'+index+'}}', 'g'), escapeHtml(value) );
+  };
+  return template;
+}
 
+function escapeHtml(str) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
 
+var template =
 
 //BUSQUEDA
-$(document).ready(function(){
-  
-});
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
 
-$(document).ready(function(){
-  var busqueda = $('#busqueda'),
-  titulo = $('ul li h5');
-});
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+      } else {
+          li[i].style.display = "none";
+      }
+  }
+};
 
-
-$(titulo).each(function(){
-  var li = $(this);
-  //si presionamos la tecla
-  $(busqueda).keyup(function(){
-    //cambiamos a minusculas
-    this.value = this.value.toLowerCase();
-    //
-    var clase = $('.search i');
-    if($(busqueda).val() != ''){
-      $(clase).attr('class', 'fa fa-times');
-    }else{
-      $(clase).attr('class', 'fa fa-search');
-    }
-    if($(clase).hasClass('fa fa-times')){
-      $(clase).click(function(){
-        //borramos el contenido del input
-        $(busqueda).val('');
-        //mostramos todas las listas
-        $(li).parent().show();
-        //volvemos a añadir la clase para mostrar la lupa
-        $(clase).attr('class', 'fa fa-search');
-      });
-    }
-    //ocultamos toda la lista
-    $(li).parent().hide();
-    //valor del h3
-    var txt = $(this).val();
-    //si hay coincidencias en la búsqueda cambiando a minusculas
-    if($(li).text().toLowerCase().indexOf(txt) > -1){
-      //mostramos las listas que coincidan
-      $(li).parent().show();
-    }
-  });
-});
 
 
 

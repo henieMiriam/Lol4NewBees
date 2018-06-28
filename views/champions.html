@@ -39,7 +39,7 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
-          Campoenes
+          Campeones
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Historia</a>
@@ -65,79 +65,18 @@
       
       <div class="content">
         <div class="search">
-          <input type="text" id="busqueda" placeholder="Buscar ...">
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
           <i class="fa fa-search"></i>
         </div>
         <ul>
           <li> 
             <div class="template"></div>
-            <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
+            <!-- <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a> -->
             <span>{{title}}</span>
             <h3>{{name}}</h3>
           </div>
-          <li> 
-            <div class="template"></div>
-            <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-            <span>{{title}}</span>
-            <h3>{{name}}</h3>
-          </div>
-          <li>
-            <div class="template"></div>
-            <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-            <span>{{title}}</span>
-            <h3>{{name}}</h3>
-          </div>
-        </li>
-        <li>
-          <div class="template"></div>
-          <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-          <span>{{title}}</span>
-          <h3>{{name}}</h3>
-        </div>
-      </li>
-      <li>
-        <div class="template"></div>
-        <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-        <span>{{title}}</span>
-        <h3>{{name}}</h3>
-      </div>
-    </li>
-    <li>
-      <div class="template"></div>
-      <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-      <span>{{title}}</span>
-      <h3>{{name}}</h3>
-    </div>
-  </li>
-  <li> 
-    <div class="template"></div>
-    <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-    <span>{{title}}</span>
-    <h3>{{name}}</h3>
-  </div>
-</li>
-<li>
-  <div class="template"></div>
-  <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-  <span>{{title}}</span>
-  <h3>{{name}}</h3>
-</div>
-</li>
-<li>
-  <div class="template"></div>
-  <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-  <span>{{title}}</span>
-  <h3>{{name}}</h3>
-</div>
-</li>
-<li>
-  <div class="template"></div>
-  <a href=""><img src="ddragon.leagueoflegends.com/cdn/7.5.2/img/champion/{{full}}" alt=""></a>
-  <span>{{title}}</span>
-  <h3>{{name}}</h3>
-</div>
-</li>
-</ul>
+        </li>        
+      </ul>
 
 
 </main>
@@ -163,7 +102,9 @@
   };
   firebase.initializeApp(config);
 </script>
-<script src="../js/champions_data.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<!-- <script src="../js/champions_data.js"></script> -->
+<script src="../js/champions.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <!-- <script type="text/javascript" src="../js/app.js"></script> -->
 </body>
